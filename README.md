@@ -1,5 +1,11 @@
 # Ethanol Production Optimization — Overview & How to Use
 
+Team: Catalyzer
+
+Devam Juthani(BT2024252)
+
+Swayam Savaliya(BT2024255)
+
 This repository contains a Jupyter notebook (`optimization_problem.ipynb`) that demonstrates an optimization model to maximize profit for ethanol production by tuning four decision variables:
 - `C_p`: initial glucose concentration (g/L)
 - `X_0`: initial biomass (g/L)
