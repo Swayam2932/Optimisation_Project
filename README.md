@@ -92,7 +92,7 @@ Notes about optimization: the notebook uses a penalty method together with BFGS 
 - Inhibition: when substrate is too high it can reduce yield (microbes stressed or poisoned by high concentrations).
 - Quadratic cost: a cost that grows as the square of a variable — used to model increasing marginal cost (e.g., energy, wear).
 - Penalty method: a way to enforce constraints by adding a large penalty to the objective when a solution violates bounds. It converts a constrained problem into an unconstrained one.
-- BFGS: gradient-based optimization algorithms. BFGS is unconstrained; L-BFGS-B supports box constraints.
+- BFGS: gradient-based optimization algorithms. BFGS is unconstrained; supports box constraints.
 - Negative profit objective: because `scipy.optimize.minimize` minimizes, the notebook hands it `-profit` so minimizing negative profit equals maximizing real profit.
 
 ---
