@@ -70,7 +70,7 @@ These forms are commonly used in engineering models: they balance realism and di
 - Required Python packages:
 
 ```powershell
-pip install numpy scipy matplotlib ipython
+pip install numpy scipy matplotlib 
 ```
 
 (If you use an environment manager such as `conda`, create an environment and install the same packages.)
